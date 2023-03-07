@@ -1,6 +1,6 @@
 import random 
 
-def first_template():
+def template_first():
    print("Great! First story selected!")
    number = input("Input any number: ")
    measure_of_time = input("Please, input a measure of time: ")
@@ -73,11 +73,11 @@ def third_template():
 
 text_template = input("Hello! Type 1, 2 or 3 to choose one of the templates!: ")
 templates = ["1", "2", "3"]
-function_names = ["second_template", "first_template", "third_template"]
+function_names = ["second_template", "template_first", "third_template"]
 
 
 if text_template == templates[0]:
-   first_template()
+   template_first()
 elif text_template == templates[1]:
    second_template()
 elif text_template == templates[2]:
